@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Poppins:wght@300&display=swap');
+
+/* global rules */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fraunces', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient( 115deg, rgba(119, 4, 4, 0.7), rgba(184, 53, 53, 0.8)),
+    url("background.jpg");
+    padding: 50px;
+    background-size: 100% 100%;
+}
+
+form {
+    color: #ddd;
+    margin: 50px auto;
+    max-width: 55%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 50px;
+}
+.form-style {
+    margin-bottom: 25px;
+    text-align: left;
+
+}
+form h1 {
+    text-align: center;
+    font-size: 8vmin;
+    font-weight: 900;
+}
+label, p{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 3.2vmin;
+}
+
+input[type="text"], input[type="email"], textarea, select {
+    display: block;
+    width: 100%;
+    padding: 0.625rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+    font-size: 2.8vmin;
+    letter-spacing: 1px;
+}
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+input[type="checkbox"], input[type="radio"] {
+    display: inline-block;
+    width: auto;
+    font-size: 2.8vmin;
+    margin-bottom: 5px !important;
+}
+button {
+    display: block;
+    width: 100%;
+    padding: 0.625rem;
+    background-color: rgb(82, 148, 82);
+    color: whitesmoke;
+    border: 0;
+    border-radius: 2px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    line-height: 1.5;
+}
+button:hover {
+    background-color: rgb(57, 172, 57);
+
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nelyn's Kitchen Survey form</title>
+    <link rel="stylesheet" href="survey.css">
+
+</head>
+    <body>
+        <form action="#" method="get" >
+                <h1>NELYN'S KITCHEN</h1>
+            <div class="form-style">
+                <label for="Name" id="label-name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-style">
+                <label for="email" id="label-email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-style">
+                <label for="age" id="label-age">Age</label>
+                <input type="text" id="age" placeholder="Enter your age">
+            </div>
+            <div class="form-style">
+                <label for="role">Which option best describes you?</label>
+                <select name="role" id="role">
+                    <option value="student">Student</option>
+                    <option value="married">Married</option>
+                    <option value="other">Prefer not to say</option>
+                </select>
+            </div>
+            <div class="form-style">
+                <p>Would you recommend Nelyn's Kitchen to afriend?</p>
+        
+                    <label for="recommend-1">
+                    <input type="radio" name="recommend-1" id="recommend-1">Yes
+                </label>
+                
+                    <label for="recommend-2">
+                    <input type="radio" name="recommend-2" id="recommend-2">No
+                </label>
+                
+                    <label for="recommend-3">
+                    <input type="radio" name="recommend-3" id="recommend-3">Maybe
+                </label>
+            </div>
+            
+            <div  class="form-style">
+                <p>Your favourite food <small>(check all that apply)</small></p>
+                    <label><input type="checkbox" name="inp">Fried rice</label>
+                
+                    <label><input type="checkbox" name="inp">Jollof rice</label>
+               
+                    <label><input type="checkbox" name="inp">Spaghetti</label>
+                
+                    <label><input type="checkbox" name="inp">Swallow with soup</label>
+               
+                    <label><input type="checkbox" name="inp">White rice and stew</label>
+               
+                    <label><input type="checkbox" name="inp">White rice and ofeakwu</label>
+            </div> 
+            <div class="form-style">
+                <label for="comment">Any comments or suggestions</label>
+                <textarea name="comment" id="comment" placeholder="Enter your comment" cols="100" maxlength="100"></textarea>
+            </div>
+            <button type="submit" value="submit">Submit</button>
+        </form>
+    </body>
+</html>
